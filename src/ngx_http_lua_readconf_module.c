@@ -106,6 +106,8 @@ ngx_http_lua_readconf_get_lua_main_conf(lua_State * L)
     return 1;
 }
 
+//获取ngx_http_lua 相关配置。如当timer使用情况，share_dict使用情况
+
 
 /*
  * 获取相应模块 main_conf
